@@ -18,9 +18,9 @@ public class Exercise25 {
 
     public static void printAndEmptyStack(Stack<String> stack) {
         // Mostrar el elemento en la cima de la pila
-        if (!stack.isEmpty()) {
+        //if (!stack.isEmpty()) {
             System.out.println(stack.peek() + "\n");
-        }
+       // }
 
         // Recorrer la pila y vaciarla
         while (!stack.isEmpty()) {
@@ -30,8 +30,8 @@ public class Exercise25 {
     }
 
     public static void main(String[] args) {
-        Stack<String> stack = createStack();
-        printAndEmptyStack(stack);
+       // Stack<String> stack = createStack();
+        printAndEmptyStack(createStack());
     }
 
 }
